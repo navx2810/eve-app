@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server --content-base dist/ --inline"
+  },
+  "dependencies": {
+    "vue": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^2.2.1",
+    "webpack": "^1.13.2"
+  }
+}

@@ -1,0 +1,35 @@
+body {
+  color: #fff;
+  margin: 1em;
+  padding: 0;
+  font-family: "Droid Sans";
+  background: #535a66;
+}
+header {
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.content {
+  padding: 1em;
+  font-family: Oswald;
+}
+.gray {
+  background: rgba(0,0,0,0.5);
+}
+.darkgray {
+  background: rgba(0,0,0,0.6);
+}
+.mineral-info {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.mineral-info .name {
+  background: #fa6400;
+  flex: 1 1 content;
+  padding: 1em;
+}
+.mineral-info .cost {
+  flex: 1 1 auto;
+}
